@@ -1,0 +1,11 @@
+console.log("hello");
+const divbox=document.getElementById('box')
+console.log(divbox);
+
+const button = document.getElementById('but')
+console.log(button);
+
+function changetext(){
+    divbox.innerHTML="hello dom";
+}
+button.addEventListener('click',changetext)
